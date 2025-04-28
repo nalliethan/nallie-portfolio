@@ -1,0 +1,33 @@
+.about{
+  padding: 50px 10%;
+  background-color: var(--bg-dark);
+}
+
+.about h2{
+  font-size: 2rem;
+  color:white;
+  margin-bottom: 40px;
+}
+
+
+.about-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-content img{
+  width: 300px;
+  border-radius: 20px;
+}
+
+.about-text{
+  flex-basis: 48%;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.about-text p{
+  margin-bottom: 40px;
+  text-align: justify;
+}

@@ -1,0 +1,90 @@
+.hero{
+  /* height: 100vh; */
+  padding-block: 160px 100px;
+  padding-inline:10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.hero-left{
+  flex-basis: 50%;
+}
+
+.hero-left h1{
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  color: var(--text-color-dark);
+}
+
+.hero-left p{
+  font-size: 22px;
+  color: var(--text-color-light);
+  margin-bottom: 20px;
+}
+
+.hero-btns{
+  display: flex;
+  justify-content: space-around; 
+  margin-top: 30px;
+}
+
+.hero-btns button,
+.hero-btns a{
+  padding: 10px 26px;
+  font-size: 24px;
+  font-weight: 600;
+  color:white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.hero-btns button.contact-btn{
+  background-color: #FF6D61;
+}
+
+.hero-btns a.download-btn{
+  background-color: var(--bg-dark);
+}
+
+.hero-btns button:hover{
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+
+.hero-right img{
+  width: 300px;
+  border-radius: 50%;
+
+  animation: float 3s ease-in-out infinite;
+  
+}
+
+.bg-blur{
+  position: absolute;
+  top: -30%;
+  left: -6%;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  background-color: #B8E1EF;
+  z-index: -1;
+  filter: blur(100px);
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
