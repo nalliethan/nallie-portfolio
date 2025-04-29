@@ -6,6 +6,7 @@ import project3 from '../../assets/Calculator.jpeg'
 import project4 from '../../assets/Calendar.jpeg'
 import project5 from '../../assets/To-do-React.jpeg'
 import project6 from '../../assets/Weather-app.jpeg'
+import project7 from '../../assets/Expense-tracker.jpeg'
 import website1 from '../../assets/Website-1.jpeg'
 import website1_mobile from '../../assets/Website-1-mobile.jpeg'
 import website2 from '../../assets/Website-2.jpeg'
@@ -71,6 +72,15 @@ const Projects = () => {
 
       liveUrl: "https://nalliethan.github.io/My-weather-app/",
       sourceUrl: "https://github.com/nalliethan/My-weather-app"
+    },
+    {
+      img: project7,
+      title: "Expense Tracker App",
+      description: "Built an expense tracker app using React, Context API, and useReducer to manage global state, allowing users to track income, expenses, and transaction history in real-time.",
+      languages: ["React", "CSS"],
+
+      liveUrl: "https://nalliethan.github.io/Expense-tracker/",
+      sourceUrl: "https://github.com/nalliethan/Expense-tracker"
     },
   ]
 
