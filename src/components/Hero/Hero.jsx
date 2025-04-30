@@ -20,7 +20,9 @@ const Hero = () => {
               </Link>
             </button>
           
-          <a href='..\..\..\public\Nallie Than Zheng Yi_FrontendDeveloper.pdf'  download='Nallie Than Zheng Yi_FrontendDeveloper.pdf' className='download-btn'>Download My Resume</a>
+          <a href='https://nalliethan.github.io/nallie-portfolio/Nallie%20Than%20Zheng%20Yi_FrontendDeveloper.pdf' target="_blank" 
+          rel="noopener noreferrer" 
+          className="download-btn">View My Resume (PDF)</a>
         </div>
       </div>
 
